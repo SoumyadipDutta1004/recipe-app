@@ -141,13 +141,13 @@ body {
 }
 
 .show-recipe {
-  width: 50dvw;
+  width: 60dvw;
   height: 60dvh;
   background-color: var(--white2-color);
   border-radius: 1em;
   position: fixed;
   top: 20%;
-  left: 25%;
+  left: 20%;
   z-index: 10;
   display: flex;
 }
@@ -186,6 +186,12 @@ body {
   margin: 2em 0;
 }
 
+@media (max-width: 1000px) {
+  .show-recipe {
+    width: 90dvw;
+    left: 5%;
+  }
+}
 
 @media (max-width: 600px) {
   .show-recipe {
